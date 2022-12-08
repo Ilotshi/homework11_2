@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<body>
+<h1>найдено кандидатов {{count_of_candidates}}</h2>
+    {%for id,name in items.items()%}
+<p><a href="/candidate/{{id}}">{{name}}</a></p>
+    {%endfor%}
+</body>
+</html>

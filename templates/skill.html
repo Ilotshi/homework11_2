@@ -1,0 +1,9 @@
+<html>
+<meta charset="UTF-8">
+<body>
+<h1>Найдено со скилом {{skill}}: {{skill_count}}</h1>
+{%for key,value in items.items()%}
+<p><a href="/candidate/{{key}}">{{value}}</a></p>
+{%endfor%}
+</body>
+</html>
